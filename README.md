@@ -7,5 +7,6 @@
 
 ## Micropython for Microbit
 
-- [Documentation](https://microbit-micropython.readthedocs.io/en/v1.0.1/)
+- [API Documentation](https://microbit-micropython.readthedocs.io/en/v1.0.1/)
+- [Using uflash](https://uflash.readthedocs.io/en/latest/index.html)
 
