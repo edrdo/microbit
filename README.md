@@ -12,10 +12,18 @@
 
 ### Flashing Micropython for the first time
 
-```Flashing Python to: /run/media/edrdo/MICROBIT/micropython.hex
-$ uflash
+Invoke `uflash`:
 
-$ minicom -D /dev/ttyACM0  # Set device appropriately and hit Control+C once connected
+```
+$ uflash
+Flashing Python to: /run/media/edrdo/MICROBIT/micropython.hex
+```
+
+To check if everything is OK, now connect to the Microbit using a program like `minicom`. After connecting hit `Control+C`, then type `help()`.
+
+```
+$ # Set device name appropriately (/dev/ttyACM0 in this example)
+$ minicom -D /dev/ttyACM0  
 Welcome to minicom 2.7.1
 
 OPTIONS: I18n 
@@ -58,3 +66,12 @@ Python/micro:bit documentation is here: https://microbit-micropython.readthedocs
 ```
 uflash script.py
 ```
+
+
+### Sample programs
+
+Program|What does it do?
+-------|---------------
+`hello.py`| Display `Hello world!` using the Microbit leds.
+`sensors.py`| Read sensor data (heading, acceleration, and temperature).
+`uart_read.py`| Read from UART.
