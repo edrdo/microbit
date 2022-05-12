@@ -1,14 +1,17 @@
 # microbit
 
+A few experiments with [Microbit V1](https://www.microbit.org/)
+and [Micropython for Microbit](https://microbit-micropython.readthedocs.io/).
+
 ## Flashing the Microbit firmware
 
--  [Version 0249 for Microbit V1](0249_microbit_firmware.hex)
--  [Instructions](https://microbit.org/get-started/user-guide/firmware/)
+-  [Firmware version 0249 for Microbit V1](0249_microbit_firmware.hex)
+-  [Flashing instructions](https://microbit.org/get-started/user-guide/firmware/)
 
 ## Micropython for Microbit
 
-- [API Documentation](https://microbit-micropython.readthedocs.io/en/v1.0.1/)
-- [Using uflash](https://uflash.readthedocs.io/en/latest/index.html)
+- [API Documentation](https://microbit-micropython.readthedocs.io/)
+- [Using uflash](https://uflash.readthedocs.io/)
 
 ### Flashing Micropython for the first time
 
