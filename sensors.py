@@ -1,11 +1,10 @@
 from microbit import *
 
-
-
 DEFAULT_PERIOD = 100
 MIN_PERIOD = 20
 MAX_PERIOD = 2500
 PERIOD_FACTOR = 5
+
 # Get dummy compass measurement, to trigger calibration if necessary
 dummy = compass.heading()
 period = DEFAULT_PERIOD
