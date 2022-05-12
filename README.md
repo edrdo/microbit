@@ -71,7 +71,7 @@ uflash script.py
 ```
 
 
-### Sample programs
+## Sample programs
 
 Program|What does it do?
 -------|---------------
