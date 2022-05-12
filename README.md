@@ -1,7 +1,7 @@
 # microbit
 
-A few experiments with [Microbit V1](https://www.microbit.org/)
-and [Micropython for Microbit](https://microbit-micropython.readthedocs.io/).
+A few experiments with [Microbit](https://www.microbit.org/)
+and [Micropython](https://micropython.org/).
 
 ## Flashing the Microbit firmware
 
